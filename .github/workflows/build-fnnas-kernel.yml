@@ -181,9 +181,9 @@ jobs:
           makeLatest: false
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            - FnNAS Dedicated Kernel. Based on official [dtbs](https://github.com/ophub/fnnas/releases/tag/kernel_fnnas) packages from `fnnas.com`,
+            - FnNAS Dedicated Kernel. Based on official [.debs](https://github.com/ophub/fnnas/releases/tag/fnnas_debs) packages from `fnnas.com`,
               and repackaged into .tar.gz format using the `rekernel` tool.
               It is optimized for batch packaging and supports online updates via the `fnnas-update` command.
-            - FnNAS 专用内核。基于 `fnnas.com` 官方提供的 [dtbs](https://github.com/ophub/fnnas/releases/tag/kernel_fnnas) 安装包，
+            - FnNAS 专用内核。基于 `fnnas.com` 官方提供的 [.debs](https://github.com/ophub/fnnas/releases/tag/fnnas_debs) 安装包，
               利用本仓库的 `rekernel` 工具重新封装为 .tar.gz 格式。
               该内核既适用于批量打包，也支持通过 `fnnas-update` 命令进行在线更新。

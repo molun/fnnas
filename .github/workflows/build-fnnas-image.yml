@@ -437,7 +437,9 @@ jobs:
           makeLatest: true
           token: ${{ secrets.GITHUB_TOKEN }}
           body: |
-            - Based on the official fnnas.com Arm64 release, preserving the complete stock experience.
-            - Extends support to a wider range of Amlogic, Rockchip, and Allwinner devices.
-            - 基于 fnnas.com 官方 Arm64 镜像构建，完整保留官方原版系统体验。
-            - 扩展支持更多基于 Amlogic、Rockchip 及 Allwinner 平台的设备。
+            - Built based on the fnnas.com [official Arm64 image](https://github.com/ophub/fnnas/releases/tag/fnnas_base_image),
+              fully preserving the original official system experience.
+              Extends support to a wider range of Amlogic, Rockchip, and Allwinner devices.
+            - 基于 fnnas.com [官方 Arm64 镜像](https://github.com/ophub/fnnas/releases/tag/fnnas_base_image) 构建，
+              完整保留官方原版系统体验。
+              扩展支持更多基于 Amlogic、Rockchip 及 Allwinner 平台的设备。
